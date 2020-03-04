@@ -7,7 +7,7 @@ int main() {
     char caracter;
     int numApariciones;
     printf("Escriba una cadena de caracteres: ");
-    scanf("%s", &cadena);
+    scanf("%s", cadena);
     printf("Escriba el caracter a buscar: ");
     scanf(" %c", &caracter);
     numApariciones = contarCaracter(cadena, caracter);
