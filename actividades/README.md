@@ -806,10 +806,13 @@ Luego corralo:
 
 Responda las siguientes preguntas:
 1. ¿Que hace el programa anterior?
+> R:/ Lo que hace este programa es capturar la entrada de caracteres del usuario hasta un máximo de 1000 caracteres o hasta que el usuario envíe una señal de EOF (End of File) con la combinación de teclas ```Ctrl + D``` y luego imprime exactamente lo mismo que el usuario ingresó.
 2. Describa las funciones ```getchar``` y ```putchar```
+> R:/ La función ```getchar``` lo que hace es obtener un caracter desde la consola, lo que significa que ```getchar``` es una función de entrada de caracteres; mientras que la función ```putchar``` sirve para imprimir los caracteres, lo que significa que la función ```putchar``` es una función de salida de caracteres.
 3. ¿Cuales son las condiciones necesarias para que el primer ciclo deje de ejecutarse?
+> La condición necesaria es la terminación del programa en el primer ciclo (con el comando ```Ctrl + C```) o que se envíe la señal de EOF (con el comando ```Ctrl + D```).
 
-5. **Problema de programación**: Codifique un programa que permita convertir en mayuscula una cadena de caracteres ingresada por teclado y solo terminara su ejecución cuando el usuario emplee la combinación de teclas . Por ejemplo si la entrada del programa es:
+2. **Problema de programación**: Codifique un programa que permita convertir en mayuscula una cadena de caracteres ingresada por teclado y solo terminara su ejecución cuando el usuario emplee la combinación de teclas . Por ejemplo si la entrada del programa es:
 
 ```
 1234abcdABCD!
