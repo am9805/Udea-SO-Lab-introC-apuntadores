@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int mediana(int *valores, int tamano);
 int comp(const void *elem1, const void *elem2);
 void testMediana();
+
 int main()
 {
   testMediana();
